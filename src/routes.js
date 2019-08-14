@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Redirect} from 'react-router-dom';
 import {spring, AnimatedSwitch} from 'react-router-transition';
 import Base from './pages/base';
 import Main from './pages/main';
@@ -49,7 +49,8 @@ export default function Routes(){
                 mapStyles={mapStyles}
                 className="route-wrapper"
                 >
-                    <Route path='/' exact component={Main} />
+                    <Route path='/' exact render={() => (<Redirect to='/herosight' />)} />
+                    <Route path='/herosight' component={Main} />
                     <Route path='/equipe' component={Equipe} />
                     <Route path='/contato' component={Contato} />
                 </AnimatedSwitch>
