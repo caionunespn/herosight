@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/herosight/static/css/main.70d24ac4.chunk.css",
-    "main.js": "/herosight/static/js/main.79f6784d.chunk.js",
-    "main.js.map": "/herosight/static/js/main.79f6784d.chunk.js.map",
+    "main.js": "/herosight/static/js/main.981724eb.chunk.js",
+    "main.js.map": "/herosight/static/js/main.981724eb.chunk.js.map",
     "runtime~main.js": "/herosight/static/js/runtime~main.2fdd52a8.js",
     "runtime~main.js.map": "/herosight/static/js/runtime~main.2fdd52a8.js.map",
-    "static/js/2.2d06e230.chunk.js": "/herosight/static/js/2.2d06e230.chunk.js",
-    "static/js/2.2d06e230.chunk.js.map": "/herosight/static/js/2.2d06e230.chunk.js.map",
+    "static/js/2.4881cd46.chunk.js": "/herosight/static/js/2.4881cd46.chunk.js",
+    "static/js/2.4881cd46.chunk.js.map": "/herosight/static/js/2.4881cd46.chunk.js.map",
     "index.html": "/herosight/index.html",
-    "precache-manifest.05bf67f8777886399528967d03b01edb.js": "/herosight/precache-manifest.05bf67f8777886399528967d03b01edb.js",
+    "precache-manifest.3be68d70968bda6759e650d8bc94db86.js": "/herosight/precache-manifest.3be68d70968bda6759e650d8bc94db86.js",
     "service-worker.js": "/herosight/service-worker.js",
     "static/css/main.70d24ac4.chunk.css.map": "/herosight/static/css/main.70d24ac4.chunk.css.map",
     "static/media/logo.png": "/herosight/static/media/logo.139f0638.png"
