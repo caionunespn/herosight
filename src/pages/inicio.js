@@ -22,7 +22,7 @@ export default function Inicio(props){
                     <p className='news-titulo'>{noticia.title}</p>
                     <div className='news-autor'>
                         <img alt='' src='https://avatars3.githubusercontent.com/u/20321685?v=4' />
-                        <p>Por: {noticia.author.substring(0,20)} - {new Date(noticia.publishedAt).toLocaleDateString('pt-BR')}</p>
+                        <p>Por: {noticia.author.substring(0,20)}  {new Date(noticia.publishedAt).toLocaleDateString('pt-BR')}</p>
 
                     </div>
                     <div className='news-body'>

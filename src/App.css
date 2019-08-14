@@ -16,3 +16,11 @@ body, input, button{
   font-weight: 300;
   color: #212121;
 }
+
+.route-wrapper {
+  position: relative;
+}
+
+.route-wrapper > div {
+  position: relative;
+}
