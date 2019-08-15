@@ -24,3 +24,14 @@ body, input, button{
 .route-wrapper > div {
   position: relative;
 }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .show-xs{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

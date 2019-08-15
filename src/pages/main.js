@@ -4,7 +4,10 @@ import Inicio from './inicio';
 import api from '../services/api';
 
 export default function Main({history}){
-
+    const styles = {
+        tn1: 'topNews-container',
+        tn2: 'hidden-xs',
+    }
     const [topNews, setTopNews] = useState([]);
     useEffect(() => {
         async function loadTopNews(){
@@ -17,13 +20,15 @@ export default function Main({history}){
     return(            
             <div className='corpo-container'>
                 <Inicio />
-                <div className='topNews-container'>
+                <div className={`${styles.tn1} ${styles.tn2}`}>
                     <div className='topNews-header'>
                         <strong>Em Destaque</strong>
                     </div>
-                    {topNews.length > 0 ? topNews.map(topNoticia => (
-                        <div className='topNews-card'>
-                            <img className='topNews-img' alt='' src={topNoticia.urlToImage} />
+                    {topNews.length > 0 ? topNews.map((topNoticia, index) => (
+                        <div key={index} className='topNews-card'>
+                            <div className='topNews-img-container'>
+                                <img className='topNews-img' alt='' src={topNoticia.urlToImage} />
+                            </div>
                             <strong className='topNews-titulo'>{topNoticia.title}</strong>
                         </div>
                     )) : <p> Sem noticias em destaque</p>}

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './inicio.css';
 import api from '../services/api';
-
+import User from '../assets/user.png';
 export default function Inicio(props){
     const [news, setNews] = useState([]);
     useEffect(() => {
@@ -14,14 +14,16 @@ export default function Inicio(props){
     }, [props.pagina]);
     return(
         <div className='news'>
-            {news.length > 0 ? news.map(noticia => (
-                <div className='news-card'>
+            {news.length > 0 ? news.map((noticia, index) => (
+                <div key={index} className='news-card'>
                     <div className='news-img-container'>
                         <img className='news-img' alt='' src={noticia.urlToImage} />
                     </div>
                     <p className='news-titulo'>{noticia.title}</p>
                     <div className='news-autor'>
-                        <img alt='' src='https://avatars3.githubusercontent.com/u/20321685?v=4' />
+                        <div className='news-autor-img-container'>
+                            <img alt='' src={User}/>
+                        </div>
                         <p>Por: {noticia.author.substring(0,20)}  {new Date(noticia.publishedAt).toLocaleDateString('pt-BR')}</p>
 
                     </div>
