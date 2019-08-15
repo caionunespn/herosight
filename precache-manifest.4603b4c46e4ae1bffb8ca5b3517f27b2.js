@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d511ba102875b93824f5d46a957d4250",
+    "revision": "1b91cf11642f518f6cea328eee4f9a90",
     "url": "/herosight/index.html"
   },
   {
-    "revision": "a8a11cba4e1912ca5355",
-    "url": "/herosight/static/css/main.15354976.chunk.css"
+    "revision": "7602a06ae41270cda176",
+    "url": "/herosight/static/css/main.b1d8ace9.chunk.css"
   },
   {
     "revision": "7bae37486a7e1917ee13",
     "url": "/herosight/static/js/2.ede01ecd.chunk.js"
   },
   {
-    "revision": "a8a11cba4e1912ca5355",
+    "revision": "7602a06ae41270cda176",
     "url": "/herosight/static/js/main.7a0d6333.chunk.js"
   },
   {
