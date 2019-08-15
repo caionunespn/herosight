@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/herosight/static/css/main.70d24ac4.chunk.css",
-    "main.js": "/herosight/static/js/main.981724eb.chunk.js",
-    "main.js.map": "/herosight/static/js/main.981724eb.chunk.js.map",
+    "main.css": "/herosight/static/css/main.15354976.chunk.css",
+    "main.js": "/herosight/static/js/main.7a0d6333.chunk.js",
+    "main.js.map": "/herosight/static/js/main.7a0d6333.chunk.js.map",
     "runtime~main.js": "/herosight/static/js/runtime~main.2fdd52a8.js",
     "runtime~main.js.map": "/herosight/static/js/runtime~main.2fdd52a8.js.map",
-    "static/js/2.4881cd46.chunk.js": "/herosight/static/js/2.4881cd46.chunk.js",
-    "static/js/2.4881cd46.chunk.js.map": "/herosight/static/js/2.4881cd46.chunk.js.map",
+    "static/js/2.ede01ecd.chunk.js": "/herosight/static/js/2.ede01ecd.chunk.js",
+    "static/js/2.ede01ecd.chunk.js.map": "/herosight/static/js/2.ede01ecd.chunk.js.map",
     "index.html": "/herosight/index.html",
-    "precache-manifest.3be68d70968bda6759e650d8bc94db86.js": "/herosight/precache-manifest.3be68d70968bda6759e650d8bc94db86.js",
+    "precache-manifest.a0bb0437f29ba4b78b0f39e1f1fe5a85.js": "/herosight/precache-manifest.a0bb0437f29ba4b78b0f39e1f1fe5a85.js",
     "service-worker.js": "/herosight/service-worker.js",
-    "static/css/main.70d24ac4.chunk.css.map": "/herosight/static/css/main.70d24ac4.chunk.css.map",
-    "static/media/logo.png": "/herosight/static/media/logo.139f0638.png"
+    "static/css/main.15354976.chunk.css.map": "/herosight/static/css/main.15354976.chunk.css.map",
+    "static/media/logo.png": "/herosight/static/media/logo.139f0638.png",
+    "static/media/menu.svg": "/herosight/static/media/menu.86595150.svg",
+    "static/media/user.png": "/herosight/static/media/user.b752764f.png"
   }
 }
