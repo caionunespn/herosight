@@ -1,0 +1,27 @@
+.equipe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5%;
+    background-color: #ddd;
+}
+.membro-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.membro-card-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+.membro-card-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
