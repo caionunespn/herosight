@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/herosight/precache-manifest.f0986be8b4fafe5367c9deea65a0c131.js"
+  "/herosight/precache-manifest.20ce084e7da3708dbc288b2d962ca198.js"
 );
 
 self.addEventListener('message', (event) => {
