@@ -24,7 +24,7 @@ export default function Inicio(props){
                         <div className='news-autor-img-container'>
                             <img alt='' src={User}/>
                         </div>
-                        <p>Por: {noticia.author.substring(0,20)}  {new Date(noticia.publishedAt).toLocaleDateString('pt-BR')}</p>
+                        <p>{new Date(noticia.publishedAt).toLocaleDateString('pt-BR')}</p>
 
                     </div>
                     <div className='news-body'>

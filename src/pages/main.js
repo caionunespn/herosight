@@ -11,7 +11,7 @@ export default function Main({history}){
     const [topNews, setTopNews] = useState([]);
     useEffect(() => {
         async function loadTopNews(){
-            const response = await api.get('everything?language=pt&sortBy=relevancy&pageSize=25&apiKey=e732893c048b46488389b15301b0a51d&q=Marvel');
+            const response = await api.get('everything?language=pt&sortBy=relevancy&pageSize=27&apiKey=e732893c048b46488389b15301b0a51d&q=Marvel');
             setTopNews(response.data.articles);
             
         }

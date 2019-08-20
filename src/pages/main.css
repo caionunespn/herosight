@@ -9,7 +9,7 @@
 .topNews-container{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     background-color: #fff;
     border-radius: 1%;
 }
